@@ -1240,7 +1240,7 @@ rule CXX_STATIC_LIBRARY_LINKER____idf_main
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER____idf_print1
+rule CXX_COMPILER____idf_Network
   depfile = $DEP_FILE
   deps = gcc
   command = /home/gustavosinbandera1/esp/esp-idf/tools/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++  $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -1250,26 +1250,7 @@ rule CXX_COMPILER____idf_print1
 #############################################
 # Rule for linking CXX static library.
 
-rule CXX_STATIC_LIBRARY_LINKER____idf_print1
-  command = $PRE_LINK && /usr/local/bin/cmake -E remove $TARGET_FILE && /home/gustavosinbandera1/esp/esp-idf/tools/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-ar qc $TARGET_FILE $LINK_FLAGS $in && /home/gustavosinbandera1/esp/esp-idf/tools/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-ranlib $TARGET_FILE && $POST_BUILD
-  description = Linking CXX static library $TARGET_FILE
-  restat = $RESTAT
-
-
-#############################################
-# Rule for compiling CXX files.
-
-rule CXX_COMPILER____idf_print2
-  depfile = $DEP_FILE
-  deps = gcc
-  command = /home/gustavosinbandera1/esp/esp-idf/tools/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++  $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
-  description = Building CXX object $out
-
-
-#############################################
-# Rule for linking CXX static library.
-
-rule CXX_STATIC_LIBRARY_LINKER____idf_print2
+rule CXX_STATIC_LIBRARY_LINKER____idf_Network
   command = $PRE_LINK && /usr/local/bin/cmake -E remove $TARGET_FILE && /home/gustavosinbandera1/esp/esp-idf/tools/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-ar qc $TARGET_FILE $LINK_FLAGS $in && /home/gustavosinbandera1/esp/esp-idf/tools/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-ranlib $TARGET_FILE && $POST_BUILD
   description = Linking CXX static library $TARGET_FILE
   restat = $RESTAT

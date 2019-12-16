@@ -56,5 +56,4 @@
 /home/gustavosinbandera1/LOCHA/hello_world-withComponents/build/esp-idf/unity/libunity.a
 /home/gustavosinbandera1/LOCHA/hello_world-withComponents/build/esp-idf/wifi_provisioning/libwifi_provisioning.a
 /home/gustavosinbandera1/LOCHA/hello_world-withComponents/build/esp-idf/main/libmain.a
-/home/gustavosinbandera1/LOCHA/hello_world-withComponents/build/esp-idf/print1/libprint1.a
-/home/gustavosinbandera1/LOCHA/hello_world-withComponents/build/esp-idf/print2/libprint2.a
+/home/gustavosinbandera1/LOCHA/hello_world-withComponents/build/esp-idf/Network/libNetwork.a

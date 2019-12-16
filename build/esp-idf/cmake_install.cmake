@@ -99,8 +99,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/gustavosinbandera1/LOCHA/hello_world-withComponents/build/esp-idf/unity/cmake_install.cmake")
   include("/home/gustavosinbandera1/LOCHA/hello_world-withComponents/build/esp-idf/wifi_provisioning/cmake_install.cmake")
   include("/home/gustavosinbandera1/LOCHA/hello_world-withComponents/build/esp-idf/main/cmake_install.cmake")
-  include("/home/gustavosinbandera1/LOCHA/hello_world-withComponents/build/esp-idf/print1/cmake_install.cmake")
-  include("/home/gustavosinbandera1/LOCHA/hello_world-withComponents/build/esp-idf/print2/cmake_install.cmake")
+  include("/home/gustavosinbandera1/LOCHA/hello_world-withComponents/build/esp-idf/Network/cmake_install.cmake")
 
 endif()
 

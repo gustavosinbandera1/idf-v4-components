@@ -849,3 +849,16 @@
 58	713	1576531565	esp-idf/esp32/ld/esp32.project.ld	e23b338fd36f231d
 713	1056	1576531565	hello-world.elf	abdea1e26a8ba4b6
 1056	1140	1576531565	.bin_timestamp	8c6f0031fa5cadf8
+1	7122	1576531784	build.ninja	86a04248358fe072
+11	25	1576531349	bootloader-prefix/src/bootloader-stamp/bootloader-build	f570b449808c8f69
+11	25	1576531349	bootloader/bootloader.elf	f570b449808c8f69
+11	25	1576531349	bootloader/bootloader.bin	f570b449808c8f69
+11	25	1576531349	bootloader/bootloader.map	f570b449808c8f69
+11	110	1576531784	esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_app_desc.c.obj	34c6b23411f29e69
+11	335	1576531784	esp-idf/Network/CMakeFiles/__idf_Network.dir/WiFiEventHandler.cpp.obj	82e596021b3738e6
+1	7283	1576531811	build.ninja	86a04248358fe072
+12	24	1576531811	esp-idf/app_update/libapp_update.a	81aa55333cc92bb9
+11	27	1576531349	bootloader-prefix/src/bootloader-stamp/bootloader-build	f570b449808c8f69
+11	27	1576531349	bootloader/bootloader.elf	f570b449808c8f69
+11	27	1576531349	bootloader/bootloader.bin	f570b449808c8f69
+11	27	1576531349	bootloader/bootloader.map	f570b449808c8f69
